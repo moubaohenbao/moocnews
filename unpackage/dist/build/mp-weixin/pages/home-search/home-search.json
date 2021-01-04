@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "list-scroll": "/components/list-scroll/list-scroll",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "list-card": "/components/list-card/list-card"
+  }
+}

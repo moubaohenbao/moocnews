@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/comment-box/comment-box"],{"098d":function(t,n,e){"use strict";e.d(n,"b",(function(){return c})),e.d(n,"c",(function(){return r})),e.d(n,"a",(function(){return o}));var o={commentBox:function(){return Promise.resolve().then(e.bind(null,"1924"))}},c=function(){var t=this,n=t.$createElement,e=(t._self._c,t._f("formatTime")(t.comment.create_time));t.$mp.data=Object.assign({},{$root:{f0:e}})},r=[]},1924:function(t,n,e){"use strict";e.r(n);var o=e("098d"),c=e("902b");for(var r in c)"default"!==r&&function(t){e.d(n,t,(function(){return c[t]}))}(r);e("ffc0");var u,i=e("f0c5"),m=Object(i["a"])(c["default"],o["b"],o["c"],!1,null,null,null,!1,o["a"],u);n["default"]=m.exports},"48b8":function(t,n,e){},"902b":function(t,n,e){"use strict";e.r(n);var o=e("c171"),c=e.n(o);for(var r in o)"default"!==r&&function(t){e.d(n,t,(function(){return o[t]}))}(r);n["default"]=c.a},c171:function(t,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var o=e("6d06"),c=function(){Promise.resolve().then(function(){return resolve(e("1924"))}.bind(null,e)).catch(e.oe)},r={name:"comment-box",components:{commentBox:c},props:{comment:{type:Object,default:function(){return{}}},commentCall:{type:Boolean,default:!1}},filters:{formatTime:function(t){return(0,o.parseTime)(t)}},data:function(){return{}},methods:{CommentCall:function(t){t.is_call&&(t.comment.reply_id=t.comment.comment_id,t.comment.comment_id=this.comment.comment_id),this.$emit("click",t)}}};n.default=r},ffc0:function(t,n,e){"use strict";var o=e("48b8"),c=e.n(o);c.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/comment-box/comment-box-create-component',
+    {
+        'components/comment-box/comment-box-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("1924"))
+        })
+    },
+    [['components/comment-box/comment-box-create-component']]
+]);

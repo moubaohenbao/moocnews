@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "list-swiper-item": "/components/list-swiper/list-swiper-item"
+  }
+}
